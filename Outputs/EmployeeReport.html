@@ -1,0 +1,98 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Employee Working Hours</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            margin: 40px;
+            background-color: #f4f6f9;
+        }
+
+        h1 {
+            text-align: center;
+            color: #26364a;
+        }
+
+        table {
+            width: 80%;
+            margin: auto;
+            border-collapse: collapse;
+            background: white;
+        }
+
+        th, td {
+            padding: 14px;
+            border: 1px solid #ddd;
+            text-align: center;
+        }
+
+        th {
+            background-color: #26364a;
+            color: white;
+        }
+
+        tr.low-hours {
+            background-color: #f70808;
+            color: white;
+        }
+
+        tr:nth-child(even):not(.low-hours) {
+            background-color: #edf1f5;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Employee Working Hours Report</h1>
+
+    <table>
+        <tr>
+            <th>Employee Name</th>
+            <th>Total Hours Worked</th>
+        </tr>
+    <tr >
+        <td>Patrick Huthinson</td>
+        <td>212.13</td>
+    </tr>
+    <tr >
+        <td>Abhay Singh</td>
+        <td>207.65</td>
+    </tr>
+    <tr >
+        <td>Stewart Malachi</td>
+        <td>197.83</td>
+    </tr>
+    <tr >
+        <td>John Black</td>
+        <td>197.02</td>
+    </tr>
+    <tr >
+        <td>Mary Poppins</td>
+        <td>167.92</td>
+    </tr>
+    <tr >
+        <td>Tim Perkinson</td>
+        <td>163.17</td>
+    </tr>
+    <tr >
+        <td>Kavvay Verma</td>
+        <td>158.12</td>
+    </tr>
+    <tr >
+        <td>Rita Alley</td>
+        <td>112.18</td>
+    </tr>
+    <tr class="low-hours">
+        <td>Raju Sunuwar</td>
+        <td>95.67</td>
+    </tr>
+    <tr class="low-hours">
+        <td>Tamoy Smith</td>
+        <td>86.78</td>
+    </tr>
+    </table>
+</body>
+</html>
